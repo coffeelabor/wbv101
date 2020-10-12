@@ -16,3 +16,5 @@
 
 - Wind Energy site
 - Koala Site
+- web resources
+- pathnames 
