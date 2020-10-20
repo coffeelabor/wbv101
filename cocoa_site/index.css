@@ -7,9 +7,24 @@ ul {
 }
 
 h1 {
+    font-family: 'Lobster', cursive;
     background-color: skyblue;
     color: rgb(43, 58, 108);
 }
+
+h2 {
+    font-family: 'Lobster', cursive;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+}
+
 p{
+    font-family: 'Roboto', sans-serif;
     color: rgb(43, 58, 108);
+}
+
+footer p{
+    font-size: .75rem;
 }
