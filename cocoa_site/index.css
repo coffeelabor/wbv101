@@ -10,14 +10,19 @@ h1 {
     font-family: 'Lobster', cursive;
     background-color: skyblue;
     color: rgb(43, 58, 108);
+    letter-spacing: 1px;
 }
 
 h2 {
     font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+
 }
 
 h3 {
     font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+
 }
 
 p{
@@ -27,4 +32,7 @@ p{
 
 footer p{
     font-size: .75rem;
+}
+footer a {
+    text-decoration: none;
 }
