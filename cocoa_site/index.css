@@ -2,19 +2,30 @@ body {
     background-color: #ffc482;
 }
 
+
+/* List appearance */
 ul {
-    background-color: #b3af8f;
+    list-style: "*";
+    color: skyblue;
 }
 
+/* hyperlink appearance */
+a:link, a:visited{
+    text-decoration: none;
+    color:rgb(43, 58, 108);
+}
+a:hover{
+    color: skyblue;
+}
+    
 /* Grouped Selector */
 h1, h2, h3 {
     font-family: 'Lobster', cursive;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: rgb(43, 58, 108);
 }
 
-h1 {
-    color: rgb(43, 58, 108);
-    letter-spacing: 1px;
-}
 
 p{
     font-family: 'Roboto', sans-serif;
@@ -25,14 +36,24 @@ p{
 footer p{
     font-size: .75rem;
 }
-footer a {
-    text-decoration: none;
+/* Pseudo element */
+p::first-letter{
+    color: skyblue;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    margin-right: 5px;
+    text-transform: uppercase;
 }
 
 /* Dependent Class */
 .heading{
     letter-spacing: 1px;
     
+}
+.navSpecial{
+    display: inline;
+    margin-right: 6px;
+    text-decoration: none;
 }
 
 /* Independent class */
