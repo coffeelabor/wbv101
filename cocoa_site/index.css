@@ -6,23 +6,14 @@ ul {
     background-color: #b3af8f;
 }
 
-h1 {
+/* Grouped Selector */
+h1, h2, h3 {
     font-family: 'Lobster', cursive;
-    background-color: skyblue;
+}
+
+h1 {
     color: rgb(43, 58, 108);
     letter-spacing: 1px;
-}
-
-h2 {
-    font-family: 'Lobster', cursive;
-    letter-spacing: 1px;
-
-}
-
-h3 {
-    font-family: 'Lobster', cursive;
-    letter-spacing: 1px;
-
 }
 
 p{
@@ -30,9 +21,22 @@ p{
     color: rgb(43, 58, 108);
 }
 
+/* Descendant selector */
 footer p{
     font-size: .75rem;
 }
 footer a {
     text-decoration: none;
+}
+
+/* Dependent Class */
+.heading{
+    letter-spacing: 1px;
+    
+}
+
+/* Independent class */
+h1.heading{
+    background-color: skyblue;
+    
 }
