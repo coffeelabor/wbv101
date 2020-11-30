@@ -19,17 +19,27 @@ a:hover{
 }
     
 /* Grouped Selector */
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
     text-transform: capitalize;
     letter-spacing: 1px;
     color: rgb(43, 58, 108);
 }
-
-
+/* Margin and padding with border */
+h3, h4 {
+    margin: 2px, 5px, 3px, 5px;
+    padding: 20px 5px 10px 5px;
+    border-top: 2px dashed rgb(43, 58, 108);
+}
+.paraTitle {
+    text-align: center;
+}
+/* Margin and padding added to p */
 p{
     font-family: 'Roboto', sans-serif;
     color: rgb(43, 58, 108);
+    margin: 5px 6px 8px;
+    padding: 10px
 }
 
 /* Descendant selector */
@@ -45,7 +55,7 @@ p::first-letter{
     text-transform: uppercase;
 }
 
-/* Dependent Class */
+/* Independent class */
 .heading{
     letter-spacing: 1px;
     
@@ -56,8 +66,30 @@ p::first-letter{
     text-decoration: none;
 }
 
-/* Independent class */
+/* Dependent Class */
 h1.heading{
     background-color: skyblue;
     
+}
+.imageStandard{
+    width: 30%;
+}
+
+/* Image with padding margin border and float right */
+.imageRight{
+    width: 30%;
+    margin-right: 20px; 
+    margin-bottom: 150px;
+    padding: 5px, 5px;
+    float: right;
+    border: 5px solid rgb(43, 58, 108);
+}
+
+/* Image with padding margin border and float left */
+.imageLeft{
+    width: 30%;
+    margin-left: 20px; 
+    padding: 5px, 5px;
+    float: left;
+    border: 5px solid skyblue;
 }
