@@ -1,11 +1,14 @@
-
 body {
-    
+    width: 100%;
+    margin: 0 auto;
 }
 
-/* .container{
-    background: skyblue;
-} */
+.topSection{
+    width: 100%;
+    margin: 0;
+    filter: drop-shadow(16px 16px 10px black);
+    background-color: slategray;
+}
 
 .topContainer{
     max-width: 1140px;
@@ -19,4 +22,33 @@ body {
 .mainImg{
     max-width: 50%;
     height: auto;
+}
+
+.assignHeader {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.assignContent {
+    max-width: 940px;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    background-color: lightsalmon;
+}
+
+.assignImg{
+    max-width: 50px;
+    /* float: right; */
+    overflow: auto;
+}
+
+.imgContain {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    float: right;
 }
