@@ -27,7 +27,7 @@ h1, h2, h3, h4 {
 }
 /* Margin and padding with border */
 h3, h4 {
-    margin: 2px, 5px, 3px, 5px;
+    margin: 2px 5px 3px 5px;
     padding: 20px 5px 10px 5px;
     border-top: 2px dashed rgb(43, 58, 108);
 }
@@ -80,7 +80,7 @@ h1.heading{
     width: 30%;
     margin-right: 20px; 
     margin-bottom: 150px;
-    padding: 5px, 5px;
+    padding: 5px 5px;
     float: right;
     border: 5px solid rgb(43, 58, 108);
 }
@@ -89,7 +89,7 @@ h1.heading{
 .imageLeft{
     width: 30%;
     margin-left: 20px; 
-    padding: 5px, 5px;
+    padding: 5px 5px;
     float: left;
     border: 5px solid skyblue;
 }
