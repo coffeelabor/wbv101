@@ -1,0 +1,48 @@
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body{
+    margin: 0 auto;
+    background-color: skyblue;
+}
+
+h1, h2, h3{
+    font-family: 'Anton', sans-serif;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: navy;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: skyblue;
+}
+
+.content {
+    background-color: white;
+    margin: 20px 5% 20px 5%;
+    padding: 5px 2% 5px 2%;
+    border: 1px solid navy;
+    border-radius: 10px;
+}
+
+h1.title{
+    font-style: italic;
+}
+
+.title{
+    color: navy;
+    text-align: center;
+}
