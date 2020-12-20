@@ -15,6 +15,7 @@ footer{
     padding-left: 3%;
     padding-right: 3%;
     color: white;
+
 }
 
 header.container{
@@ -42,12 +43,9 @@ a{
 }
 .container{
     display: flex;
-    /* width: 100%; */
 }
 
 .containerMain{
-    justify-content: space-between;
-    max-width: 1120px;
     width: 100%;
     
 }
@@ -60,4 +58,8 @@ a{
         display: flex;
         flex-direction: column;
         background-color: whitesmoke;
+}
+
+.divA{
+    color: navy;
 }
