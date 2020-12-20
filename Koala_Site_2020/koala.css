@@ -1,0 +1,36 @@
+/* 
+font-family: 'Stylish', sans-serif;
+font-family: 'Sunflower', sans-serif;
+*/
+
+body{
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+h1, h2, h3 {
+    font-family: 'Stylish', sans-serif;
+}
+
+p, li, a {
+    font-family: 'Sunflower', sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 3%;
+}
+
+nav {
+    text-align: center;
+}
+
+.boxSpacing{
+    margin: 10px 3% 10px 3%;
+    padding: 5px 2% 5px 2%;
+}
+
+.title{
+    text-align: center;
+    color: seagreen;
+}
