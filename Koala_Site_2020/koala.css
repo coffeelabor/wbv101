@@ -12,7 +12,7 @@ h1, h2, h3 {
     font-family: 'Stylish', sans-serif;
 }
 
-p, li, a {
+p, li, a, label, footer {
     font-family: 'Sunflower', sans-serif;
 }
 

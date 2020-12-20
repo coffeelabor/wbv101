@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, Koala, contact" />
+    <meta name="description" content="Contact Koala bears" />
+    <link rel="stylesheet" href="./koala.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&family=Sunflower:wght@300&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Contact Us</h1>
+    </header>
+    <nav>
+        <a href="./koala_home.html">Home</a>
+        <a href="#">About</a>
+        <a href="./faq.html">Koalas FAQ</a>
+        <a href="./save_koalas.html">Save Koalas</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="#">Adopt</a>
+        <a href="./contact.html">Contact Us</a>
+    </nav>
+    <main class="boxSpacing">
+        <form action="#">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName">
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br>
+            <!-- <label for="like">How much do you like Koalas:</label> -->
+            <p>How much do you like Koalas:</p>
+            <!-- <br> -->
+            <input type="radio" id="alot" name="like" value="alot">
+            <label for="alot">alot</label>
+            <br>
+            <input type="radio" id="tons" name="like" value="tons">
+            <label for="tons">tons</label>
+            <br>
+            <input type="radio" id="fav" name="like" value="fav">
+            <label for="fav">favorite animal</label>
+            <br>
+            <br>
+            <label for="koalaName">If you had a koala bear what would you name it:</label>
+            <select name="koalaName" id="koalaName">
+                <option value="select">Choose...</option>
+                <option value="grizzly">Grizzly</option>
+                <option value="teddy">Teddy</option>
+                <option value="smokey">Smokey</option>
+                <option value="rupert">Rupert</option>
+            </select>
+            <p>In 500 words tell us your favorite thing about koala bears:</p>
+            <textarea name="essay" id="essay" cols="50" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+
+        </form>
+    </main>
+    <footer class="boxSpacing">
+        Copyright 2018 All rights reserved. Australian Koala Foundation
+        <img src="./images/koala_logo.svg" alt="logo" width="20" height="20" />
+    </footer>
+</body>
+</html>
